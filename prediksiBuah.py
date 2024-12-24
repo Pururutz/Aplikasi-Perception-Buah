@@ -35,8 +35,8 @@ st.title('Aplikasi Prediksi Jenis Buah')
 input_df = user_input_features()
 
 # Menampilkan data input untuk memeriksa
-st.write("Input Data Pengguna:")
-st.write(input_df)
+//st.write("Input Data Pengguna:")
+//st.write(input_df)
 
 # Memuat model
 model = load_model()
